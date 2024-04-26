@@ -37,8 +37,8 @@
 
 
   $('#playbuttom').click(function () {
-    //$('#zhezhao').addClass('active')  弹出
-    this.style.display = 'none';
+    $('#zhezhao').addClass('active')  //弹出
+    //this.style.display = 'none';
     document.getElementById('myVideo').play();
   })
 
